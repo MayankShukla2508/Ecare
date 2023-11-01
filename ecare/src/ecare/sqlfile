@@ -1,0 +1,7 @@
+use ecare;
+ create table usertable(uid varchar(200),
+ pass varchar(50), email varchar(50), phone varchar(12),location varchar(255),tockenid varchar(10));
+create table complainttable(tockenid varchar(10),devicetype varchar(30),discription varchar(500),issue varchar(500),sysspec varchar(500));
+create table solutiontable(tockenid varchar(10),sugges varchar(500),advice varchar(500),prevention varchar(500));
+create table admintable(uid varchar(255), pass varchar(255))
+
